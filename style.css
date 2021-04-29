@@ -1,0 +1,41 @@
+body {
+  background-color: #383838;
+  margin: 0;
+}
+
+header .navHeader {
+  background-color: #272626;
+  height: 10rem;
+  text-align: center;
+  font-size: 32px;
+}
+
+header .navMain {
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+  height: 3rem;
+  align-items: center;
+  flex-wrap: wrap;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.603);
+  font-size: 32px;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+footer {
+  background-color: #2e2e2e;
+}
+
+main {
+  text-align: center;
+}
+
+.content {
+  min-height: calc(100vh - 70px);
+  color: white;
+}
+.footer {
+  height: 50px;
+  padding: 3%;
+}
