@@ -65,6 +65,8 @@ header .navMain {
 footer {
   box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.603), 0px -5px 5px rgba(0, 0, 0, 0.603);
   background-color: #1d1d1d;
+  color: white;
+  margin-top: 10%;
 }
 
 main {
@@ -126,8 +128,19 @@ h1 {
 }
 
 .products {
-   
+  margin: auto;
 }
+
+.pruducts ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.products img {
+  width: 12rem;
+}
+
+
 
 .content {
   margin-top: 2%;
